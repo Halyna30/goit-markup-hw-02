@@ -1,1 +1,24 @@
+/* цвет основного текста #757575 */
+/* вторичный цвет текста #212121 */
+/* цвет фона #FFFFFF */
+/* вторичный цвет фона #2F303A */
+/* цвет акцента #2196F3 */
 
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+}
+
+body {
+  background-color: #ffffff;
+  color: #757575;
+}
+
+.logo {
+  color: var(--title-text-color);
+}
+
+.title {
+  color: var(--title-text-color);
+}
