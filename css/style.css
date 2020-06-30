@@ -3,22 +3,62 @@
 /* цвет фона #FFFFFF */
 /* вторичный цвет фона #2F303A */
 /* цвет акцента #2196F3 */
+/* белый цвет #FFFFFF */
 
 :root {
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196f3;
+  --second-text-color: #ffffff;
 }
 
 body {
   background-color: #ffffff;
   color: #757575;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.03em;
 }
+
+/* Logo */
 
 .logo {
   color: var(--title-text-color);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+.logo > span {
+  color: var(--accent-color);
+}
+
+.site-nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.02em;
 }
 
 .title {
   color: var(--title-text-color);
+}
+
+.button {
+  background-color: var(--accent-color);
+  color: var(--second-text-color);
+}
+
+/* Hero */
+
+.hero {
+  color: var(--second-text-color);
+}
+
+.link:hover {
+  color: var(--accent-color);
+}
+
+.site-nav {
 }

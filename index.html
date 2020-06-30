@@ -4,29 +4,35 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Studio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
 
   <body>
     <!--Шапка страницы-->
     <header>
+      <a href="/" class="logo"><span>Web</span> Studio </a>
       <nav>
-        <a href="/" class="logo"> Web Studio </a>
-        <ul>
-          <li class="title"><a href="">Студия</a></li>
-          <li class="title"><a href="./portfolio.html">Портфолио</a></li>
-          <li class="title"><a href="">Контакты</a></li>
+        <ul class="site-nav">
+          <li class="title"><a href="" class="link">Студия</a></li>
+          <li class="title">
+            <a href="./portfolio.html" class="link">Портфолио</a>
+          </li>
+          <li class="title"><a href="" class="link">Контакты</a></li>
         </ul>
       </nav>
       <ul>
         <li>
-          <a href="mailto:info@devstudio.com">
+          <a href="mailto:info@devstudio.com" class="link">
             <img src="./images/email.svg" alt="изображение почтового ящика" />
             info@devstudio.com
           </a>
         </li>
         <li>
-          <a href="tel:+380961111111">
+          <a href="tel:+380961111111" class="link">
             <img src="./images/Vector.svg" alt="изображение телефона" />
             +380 96 111 11 11
           </a>
@@ -36,11 +42,11 @@
     <main>
       <!--Cекция Герой-->
       <section class="hero">
-        <h1>
+        <h1 class="hero-title">
           Эффективные решения <br />
           для вашего бизнеса
         </h1>
-        <button>Заказать услугу</button>
+        <button class="button">Заказать услугу</button>
       </section>
       <!--Cекция о нас-->
       <section>
@@ -224,6 +230,7 @@
         </ul>
       </section>
     </main>
+    <!--Подвал страницы-->
     <footer>
       <div>
         <a href="/" class="logo"><span>Web</span> Studio </a>
