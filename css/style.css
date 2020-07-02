@@ -33,22 +33,28 @@ h3 {
   line-height: 1.14;
 }
 
-/* Header */
+ul {
+  list-style: none;
+}
 
-.contacts a {
+/* Header and Footer*/
+
+.header-contacts a,
+.footer-contacts a {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   color: var(--primary-text-color);
 }
-.main-contact {
+.header-contacts {
   letter-spacing: 0.02em;
 }
 
 /* Logo */
 
-.logo {
+.header-logo,
+.footer-logo {
   color: var(--title-text-color);
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -57,12 +63,13 @@ h3 {
   text-decoration: none;
 }
 
-.logo > span {
+.header-logo > span,
+.footer-logo > span {
   color: var(--accent-color);
 }
 /* Navigation */
 
-.site-nav a {
+.nav-list a {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.15;
@@ -87,7 +94,8 @@ h3 {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
-.link:hover {
+.link:hover,
+.link:focus {
   color: var(--accent-color);
 }
 
@@ -132,25 +140,27 @@ h3 {
 }
 /* Section our work */
 
-.about-us h3,
+.about-us-list h3,
 .item-title {
   text-transform: uppercase;
 }
 
-.team p {
+.team-list p {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.1;
   text-align: center;
 }
 
-.list {
-  list-style: none;
+/* Customers */
+
+.customers-list-link:hover {
+  color: var(--accent-color);
 }
 
 /* Footer */
 
-.contacts address {
+.footer-contacts address {
   color: var(--second-text-color);
   background-color: black;
   font-style: normal;
