@@ -134,6 +134,13 @@ ul {
   text-align: center;
 }
 
+.team-list p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.1;
+  text-align: center;
+}
+
 .text {
   font-weight: 400;
   font-size: 14px;
@@ -145,13 +152,6 @@ ul {
 .about-us-list h3,
 .item-title {
   text-transform: uppercase;
-}
-
-.team-list p {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.1;
-  text-align: center;
 }
 
 /* Customers */
@@ -184,7 +184,7 @@ div > b {
   background-color: black;
 }
 
-/* portfolio page */
+/* Portfolio Page */
 
 .list-buttons {
   font-weight: 500;
