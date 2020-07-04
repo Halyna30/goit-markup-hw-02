@@ -112,6 +112,8 @@ ul {
   text-align: center;
   letter-spacing: 0.06em;
 }
+.button:focus {
+}
 
 /* Section our team*/
 
@@ -180,4 +182,40 @@ div > b {
   text-transform: uppercase;
   color: #ffffff;
   background-color: black;
+}
+
+/* portfolio page */
+
+.list-buttons {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+  color: var(--second-text-color);
+  background-color: var(--accent-color);
+}
+
+.portfolio-title {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.portfolio-subtitle {
+  font-size: 16px;
+  line-height: 1.87;
+  color: #757575;
+}
+
+.portfolio-list a {
+  text-decoration: none;
 }
